@@ -10,7 +10,7 @@
                 <div class="panel-body">
                     <div class="info">
                         <span class="glyphicon glyphicon-info-sign text-info" aria-hidden="true"></span>
-                        Fields marked with <span class="red">*</span> required.<br>
+                        Fields marked with <span class="red">*</span> required.
                     </div>
                     <form class="form-horizontal" method="POST" action="{{ route('register') }}">
                         {{ csrf_field() }}
